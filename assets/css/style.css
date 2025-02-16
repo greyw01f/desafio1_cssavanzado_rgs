@@ -85,8 +85,8 @@ nav a:hover{
 
 .maria {
     display: flex;
-    align-items: center; /* Alinea verticalmente los elementos */
-    gap: 10px; /* Espaciado entre elementos */  
+    align-items: center; 
+    gap: 10px; 
 justify-content: space-between;
 border: 1px solid #bec1bb;
 padding: 10px;
