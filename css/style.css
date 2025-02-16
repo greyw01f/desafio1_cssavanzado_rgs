@@ -1,0 +1,145 @@
+/*general*/
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.boxes {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: #BEC1BB;
+    width:25%;
+}
+
+.galeria {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:20px;
+
+
+}
+
+h1 {font-size: 45px;
+font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-size:16px;
+}
+h3 {font-size: 14px}
+
+
+p {font-size:14px;
+    font-family: 'Roboto', sans-serif;}
+
+    .hero {
+        display: flex;
+        justify-content: center;   
+        align-items: center;
+        flex-direction: column;    
+        height: 100vh;             
+        background-color: #E8EBE4;
+        text-align: center; 
+    }
+    
+
+
+nav {
+    margin:0;
+    background-color:#FFF;
+    width: 17em;
+    height: 100%;
+}
+
+nav ul {
+display:flex;
+margin: 0;
+padding:0;
+flex-direction: column;
+}
+
+nav li {padding: 1em;
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+nav a:hover{
+    color:red;
+}
+
+.article {border-bottom: 2px;}
+
+.cajas {
+    display: flex;
+}
+
+.maria {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espaciado entre elementos */  
+justify-content: space-between;
+border: 1px solid #bec1bb;
+padding: 10px;
+height:80px
+}
+.maria img {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.txt {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    align-content: center;
+    align-items: center;
+}
+
+#botox {
+    background-color: blueviolet;
+    color:white;
+    padding: 10px;   
+    display: flex;
+    
+}
+.around {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bec1bb;
+}
+.chat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: horizontal;
+    flex-direction: row;
+    border: 1px solid #bec1bb;
+    padding: 10px;
+    
+}
+
+.chat p , .chat h3 {
+    display:block;
+   
+    padding: 1px;
+}
+
+.hero p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.imgcirc {
+    border-radius:150px;
+}
